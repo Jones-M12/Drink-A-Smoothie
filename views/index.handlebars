@@ -1,0 +1,38 @@
+<h1>Smoothies!</h1>
+
+<h2>Smooties that have not been eaten!</h2>
+
+<ul>
+  {{#each smoothies}}
+    {{#unless devoured}}
+      {{> smoothies/smoothie-block sleep=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Smoothies that have been devoured!</h2>
+
+<ul>
+  {{#each smoothies}}
+    {{#if devoured}}
+      {{> smoothies/smoothie-block sleep=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Add a smoothie</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Type of Smoothie:</label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="sleepy">Devoured?</label><br>
+    <input type="radio" name="sleepy" value="1" checked> Devoured!<br>
+    <input type="radio" name="sleepy" value="0"> Awake
+  </div>
+
+  <button type="submit">Add Smoothie</button>
+</form>
