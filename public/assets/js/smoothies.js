@@ -9,7 +9,7 @@ $(function() {
     };
 
     // Send the PUT request.
-    $.ajax("/api/cats/" + id, {
+    $.ajax("/api/smoothies/" + id, {
       type: "PUT",
       data: newDevourState
     }).then(

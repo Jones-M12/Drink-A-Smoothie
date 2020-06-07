@@ -2,14 +2,14 @@ var express = require("express");
 
 var router = express.Router();
 
-// Import the model (cat.js) to use its database functions.
+// Import the model (smoothie.js) to use its database functions.
 var smoothie = require("../models/smoothies.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
   smoothie.all(function(data) {
     var hbsObject = {
-      cats: data
+      smoothies: data
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
