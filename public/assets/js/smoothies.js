@@ -27,7 +27,7 @@ $(function() {
 
     var newSmoothie = {
       smoothieName: $("#ca").val().trim(),
-      devoured: $("[smoothieName=devoured]:checked").val().trim()
+      devoured: $("[smoothieName=devoured]:checked").val()
     };
 
     // Send the POST request.
@@ -41,20 +41,5 @@ $(function() {
         location.reload();
       }
     );
-  });
-
-  $(".delete-smoothie").on("click", function(event) {
-    var id = $(this).data("id");
-
-    // Send the DELETE request.
-    $.ajax("/api/smoothies/" + id, {
-      type: "DELETE"
-    }).then(
-      function() {
-        console.log("This smoothie has been deleted!", id);
-        // Reload the page to get the updated list
-        location.reload();
-      }
-    );
-  });
+  }); 
 });

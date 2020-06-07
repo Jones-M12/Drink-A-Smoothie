@@ -2,37 +2,43 @@
 
 <h2>Smooties that have not been eaten!</h2>
 
-<ul>
+<ol>
   {{#each smoothies}}
     {{#unless devoured}}
       {{> smoothies/smoothie-block devour=true}}
     {{/unless}}
   {{/each}}
-</ul>
+</ol>
 
 <h2>Smoothies that have been devoured!</h2>
 
-<ul>
+<ol>
   {{#each smoothies}}
     {{#if devoured}}
       {{> smoothies/smoothie-block devour=false}}
     {{/if}}
   {{/each}}
-</ul>
+</ol>
 
 <h2>Add a Smoothie</h2>
 <form class="create-form">
+  <div>
+    Enter the name of the smoothie you would like to enjoy!
+  </div>
+
+  <br></br>
 
   <div class="form-group">
-    <label for="ca">Type of Smoothie:</label>
+    
     <input type="text" id="ca" name="smoothieName">
   </div>
-
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Uneaten
-  </div>
-
+  
   <button type="submit">Add Smoothie</button>
+
+    <br></br>
+    
+  
+ 
 </form>
+
+
