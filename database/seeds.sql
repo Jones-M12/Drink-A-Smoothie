@@ -1,5 +1,5 @@
 INSERT INTO smoothies
-(smoothie_name)
+(smoothieName)
 VALUES
 ("Blueberry Passion Fruit"),
 ("Kiwi Sour Apple "),

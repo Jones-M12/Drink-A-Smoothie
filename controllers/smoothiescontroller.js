@@ -3,7 +3,7 @@ var express = require("express");
 var router = express.Router();
 
 // Import the model (smoothie.js) to use its database functions.
-var smoothie = require("../models/smoothies.js");
+var smoothie = require("../models/smoothie.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
@@ -18,9 +18,9 @@ router.get("/", function(req, res) {
 
 router.post("/api/smoothies", function(req, res) {
   smoothie.create([
-    "name", "devoured"
+    "smoothieName", "devoured"
   ], [
-    req.body.name, req.body.sleepy
+    req.body.smoothieName, req.body.devoured
   ], function(result) {
     // Send back the ID of the new quote
     res.json({ id: result.insertId });

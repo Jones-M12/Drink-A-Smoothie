@@ -26,8 +26,8 @@ $(function() {
     event.preventDefault();
 
     var newSmoothie = {
-      name: $("#ca").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim()
+      smoothieName: $("#ca").val().trim(),
+      devoured: $("[smoothieName=devoured]:checked").val().trim()
     };
 
     // Send the POST request.
@@ -36,7 +36,7 @@ $(function() {
       data: newSmoothie
     }).then(
       function() {
-        console.log("Smoothie has been added");
+        console.log("Smoothie has been created");
         // Reload the page to get the updated list
         location.reload();
       }
@@ -51,7 +51,7 @@ $(function() {
       type: "DELETE"
     }).then(
       function() {
-        console.log("This smoothie has been eaten!", id);
+        console.log("This smoothie has been deleted!", id);
         // Reload the page to get the updated list
         location.reload();
       }
