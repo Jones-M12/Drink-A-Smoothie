@@ -68,7 +68,7 @@ You will see the file it setup similiar to the structure below:
 In implementing the application, restful API's were used to establish ways to update, delete, and create information with the database. Representational State Transfers (REST) work alongside handlders to deliver dynamic to the user interface. Together, with the help of (ORM), useable methods are used to send and retrieve information between systems.
 
 
-Below is an example of what your application may look like:
+Below is an example of what the application may look like:
 
 ![Drink A Smoothie Demo](./Images/demo-view.png)
 
