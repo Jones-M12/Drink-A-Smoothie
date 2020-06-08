@@ -4,7 +4,7 @@
 
 [Repo: Drink A Smoothie](https://github.com/Jones-M12/Drink-A-Smoothie.git)
 
-[Deployed Site: Drink A Smoothie](https://notes-application-jones.herokuapp.com/)
+[Deployed Site: Drink A Smoothie]()
 
 
 ## Overview
