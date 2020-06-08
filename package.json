@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jones-M12/Drink-A-Smoothie#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.0.0-alpha4",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "mysql": "^2.18.1"
