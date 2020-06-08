@@ -70,7 +70,7 @@ In implementing the application, restful API's were used to establish ways to up
 
 Below is an example of what your application may look like:
 
-![Drink A Smoothie Demo](./Assets/DemoView.png)
+![Drink A Smoothie Demo](./Images/demo-view.png)
 
 
 ## Future Development: 
