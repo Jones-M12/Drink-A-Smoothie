@@ -15,7 +15,7 @@
 <ol>
   {{#each smoothies}}
     {{#if devoured}}
-      {{> smoothies/smoothie-block }}
+      {{> smoothies/smoothie-block devour=false}}
     {{/if}}
   {{/each}}
 </ol>
