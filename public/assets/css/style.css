@@ -1,12 +1,12 @@
-.olOne {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body {
+  font-family: 'Coiny', cursive;
+  background-image: url("https://th.bing.com/th/id/OIP.icYLHM84N8QQYAdihTY-KAHaFj?w=276&h=207&c=7&o=5&pid=1.7");
 }
 
-.olTwo {
+
+li {
   padding: 5px;
-  margin-left: 5px;
+  margin: 5px;
   background: #faebd7;
 }
 
