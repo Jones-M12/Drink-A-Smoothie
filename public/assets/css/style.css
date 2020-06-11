@@ -1,6 +1,12 @@
-li {
+.olOne {
   padding: 5px;
   margin: 5px;
+  background: #faebd7;
+}
+
+.olTwo {
+  padding: 5px;
+  margin-left: 5px;
   background: #faebd7;
 }
 
