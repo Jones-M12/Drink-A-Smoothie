@@ -2,7 +2,7 @@
 
 <h2>Smooties that have not been eaten!</h2>
 
-<ol class= "olOne">
+<ol>
   {{#each smoothies}}
     {{#unless devoured}}
       {{> smoothies/smoothie-block devour=true}}
@@ -12,10 +12,10 @@
 
 <h2>Smoothies that have been devoured!</h2>
 
-<ol class= "olOne">
+<ol>
   {{#each smoothies}}
     {{#if devoured}}
-      {{> smoothies/smoothie-block }}
+      {{> smoothies/smoothie-block devour=false}}
     {{/if}}
   {{/each}}
 </ol>
