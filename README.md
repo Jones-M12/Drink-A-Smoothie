@@ -11,7 +11,7 @@
 
 In this project, I have created a smoothie logger with MySQL, Express, Handlebars and a homemade Object Relational Mapper (ORM).
 
-Utilizing the Model View Controller (MVC), I has the project follows a basic deisng strucure that easy to follow.
+Utilizing the Model View Controller (MVC), the project follows a basic design structure that easy to follow.
 
 
 ## User Story
@@ -24,37 +24,37 @@ SO THAT I can keep track of the smoothies that I have tried before.
 
 ## Development 
 
-I have designed this project from start to finish, gaining a better understanding of the importance of file stuctures, how they are connected, and how they cna help with organization.
+I have designed this project from start to finish, gaining a better understanding of the importance of file structures, how they are connected, and how they can help with organization.
 
-You will see the file it setup similiar to the structure below:
+You will see the file setup is similar to the structure below:
 
 ```
 .
 ├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
+│   ├── connection.js
+│   └── orm.js
+│ 
 ├── controllers
-│   └── burgers_controller.js
+│   └── burgers_controller.js
 │
 ├── db
-│   ├── schema.sql
-│   └── seeds.sql
+│   ├── schema.sql
+│   └── seeds.sql
 │
 ├── models
-│   └── burger.js
-│ 
+│   └── burger.js
+│ 
 ├── node_modules
-│ 
+│ 
 ├── package.json
 │
 ├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
+│   └── assets
+│       ├── css
+│       │   └── burger_style.css
+│       └── img
+│           └── burger.png
+│   
 │
 ├── server.js
 │
@@ -65,7 +65,7 @@ You will see the file it setup similiar to the structure below:
 ```
 
 
-In implementing the application, restful API's were used to establish ways to update, delete, and create information with the database. Representational State Transfers (REST) work alongside handlders to deliver dynamic to the user interface. Together, with the help of (ORM), useable methods are used to send and retrieve information between systems.
+In implementing the application, restful API's were used to establish ways to update, delete, and create information with the database. Representational State Transfers (REST) work alongside handlebars to deliver dynamic to the user interface. Together, with the help of (ORM), useable methods are used to send and retrieve information between systems.
 
 
 Below is an example of what the application may look like:
@@ -79,11 +79,9 @@ The future development of this project would involve focusing on the visual disp
 
 ## Contact Information
 
-* Github: [Jones-M12](https://github.com/Jones-M12) 
+* GitHub: [Jones-M12](https://github.com/Jones-M12) 
 
 * Email: malesharj@gmail.com 
 
-* LindedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
-
-
+* LinkedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
 
