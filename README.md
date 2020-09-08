@@ -9,7 +9,7 @@
 
 ## Overview
 
-In this project, I have created a smoothie logger with MySQL, Express, Handlebars and a homemade Object Relational Mapper (ORM).
+In this project, I have created a smoothie logger with HTML, CSS, Javascript, MySQL, Express, Handlebars and a homemade Object Relational Mapper (ORM).
 
 Utilizing the Model View Controller (MVC), the project follows a basic design structure that easy to follow.
 
